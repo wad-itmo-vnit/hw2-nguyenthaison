@@ -1,0 +1,46 @@
+body {
+    margin: auto; /*page tu dong can vao center*/
+    width: 100%;
+    background-color: rgb(167, 224, 255);
+}
+
+h1 {
+    color:chocolate;
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    color:blue;
+    text-align: center;
+    font-size: 30px;
+}
+
+#gallery {
+    margin: auto;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /*xep vua van cac pic vao 1 khung body*/
+}
+
+/* style for layouts div.pic */
+.pics {
+    margin: 5px;
+    flex-basis: 220px;
+    flex-grow: 1;
+}
+
+/* style for pics. */
+img {
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    transition: 0.3s; /*time of animation*/
+    border-radius: 15px;
+}
+
+img:hover {
+    opacity: 0.75;
+    border-radius: 50px;
+}
