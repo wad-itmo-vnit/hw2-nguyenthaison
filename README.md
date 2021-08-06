@@ -1,2 +1,3 @@
 # hw2-nguyenthaison
-  - Create a web application by flask python with access address: http://localhost:5000
+  - Create a function to display the image in full screen when clicking on it.
+  - Create a function to exit from the full screen view mode.
